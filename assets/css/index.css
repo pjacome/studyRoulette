@@ -1,0 +1,36 @@
+html, body {
+	width: 100%;
+	height: 100%;
+
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	width: 100%;
+	height: 50px;
+	background-color: yellow;
+}
+
+#navBar {
+	width: 175px;
+	height: calc(100% - 54px);
+
+	display: inline-block;
+
+	background-color: blue;
+}
+
+#container {
+	width: calc(100% - 179px);
+	height: calc(100% - 54px);
+
+	display: inline-block;
+	white-space: nowrap;
+
+	background-color: green;
+}
+
+button {
+	position: absolute;
+}
